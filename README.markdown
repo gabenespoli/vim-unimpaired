@@ -1,3 +1,13 @@
+# gabenespoli/unimpaired.vim
+
+This fork makes a few minor changes:
+
+1. use `co` instead of `yo` for option mappings
+2. remove experimental paste bindings, mostly so that I can bind `=` to
+   something else without having it wait for a second character
+3. remove the html string encoding; since I don't use this stuff, I don't need
+   to load it and I would like to have `[y` and `]y` back
+
 # unimpaired.vim
 
 Much of unimpaired.vim was extracted from my vimrc when I noticed a
